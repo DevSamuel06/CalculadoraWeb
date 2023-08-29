@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viwerpoint" content="width=device-width, initial-scale=1.0">
+    <title>Buffet francano</title>
+    <link rel="stylesheet" href="/style.css"> 
+</head>
+
+<body>
+    <!--Cabeçalho do site-->
+    <!--Div é uma divisoria dentro do site(onde cada coisa fica)-->
+    <div class="w3-top">
+        <div class="w3-bar w3-white w3-pardding w3-card" style="letter-spacing:4px;">
+             <a href="#home" class="w3-bar-item w3-button">Buffet Francano</a>
+             <!--Botões do Menu-->
+             <div class="w3-right w3-hide-small">
+                <a href="#abount" class="w3-bar-item w3-button">Sobre</a>
+                <a href="#menu" class="w3-bar-item w3-button">Menu</a>
+                <a href="#contact" class="w3-bar-item w3-button">Contato</a> <!--href faz link para outros, quando a pessoa clicar ela leva até a div que eu defini dentro do proprio site-->
+             </div>
+        </div>
+    </div>
+
+    <!--Imagem e nome do Site-->
+    <header class="w3-display-caontainer w3-content w3-wide" style="max-width:1600px; min-width:500px;" id="home">
+        <img class="w3-image" src="/img/hamburger.jpg" alt="hamburger Francano" width="1600" height="800">
+        <div class="w3-display-bottomleft w3-padding-large w3-opacity">
+            <h1 class="w3-xxlarge">Buffet Francano</h1>
+        </div>  
+    </header>      
+
+    <!--conteudo da pagina-->
+    <div class="w3-content" style="max-width:1100px">
+    
+    <!--Sessão Sobre-->
+    <div class="w3-row w3-padding-64" id="abount">
+        <div class="w3-col m6 w3-padding-large w3-hide-small">
+            <img src="/img/mesa.jpg" class="w3-round w3-image w3-opacity-min"
+            alt="Uma mesa com pratos de comida vista de cima" width="600" height="750">
+        </div>
+
+        <div class="w3-col m6 w3-padding-large">
+            <h1 class="w3-center">Sobre o Buffet</h1><br>
+            <h5 class="w3-center">Tradição desde 1998</h5>
+            <p class="w3-large" style="text-align: justify;">Lorem ipsum dolor sit amet consectetur<span class="w3-tag w3-light-grey">Dona palmirinha</span> adipisicing elit. 
+                Quia assumenda deleniti itaque nihil expedita quisquam, ipsum reiciendis vitae animi impedit 
+                optio totam nisi voluptatum sint harum quas atque odit maxime usamos ingredientes <span class="w3-tag w3-light-grey">frescos</span>
+            </p>
+            <p class="w3-large" style="text-align: justify;">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                 Ratione tempore qui autem corrupti. Ipsa aut minima quod eaque similique molestiae natus perferendis inventore sed, saepe alias quae tenetur,
+                  reiciendis ad!</p>
+
+        </div> 
+    </div>              
+            
+    <hr>
+
+    <!--Menu-->
+    <div class="w3-row w3-padding-64" id="menu">
+        <div class="w3-col l6 w3-padding-large">
+           <h1 class="w3-center">Nosso Menu</h1><br>
+           <h4 class="w3-tag w3-light-grey">Cesta de Pães</h4>
+           <p class="w3-text-grey">Variedade de pães de frutas frescas e muffins | $9.50</p><br> 
+
+           <h4 class="w3-tag w3-light-grey">Granola com mel e Amendoa com frutas</h4>
+           <p class="w3-text-grey">cereais naturais de aveia torrada com mel, passas, amêndoas e tâmaras | 7.00</p><br>
+
+           <h4 class="w3-tag w3-light-grey">Waffle belga</h4>
+           <p class="w3-text-grey">Waffle sabor baunilha com farinha malte | $7.50 </p><br>
+
+           <h4 class="w3-tag w3-light-grey">Ovos Mexidos</h4>
+           <p class="w3-text-grey">Ovos mexidos com pimenta Vermelha e alho assado, com cebolinha | 7.50</p><br>
+
+           <h4 class="w3-tag w3-light-grey">Panqueca de Mirtilo</h4>
+           <p class="w3-text-grey">Com calda, manteiga e muitos frutos silvestres | $8.50</p><br>
+        </div>
+
+        <div class="w3-col l6 w3-padding-large">
+            <img src="/img/mesa2.jpg" class="w3-round w3-image w3-opacity-min" alt="Menu" style="width:100%;">
+        </div>
+    </div>
+    
+    <!--Contato-->
+    <div class="w3-container w3-padding-64" id="contact">
+        <h1>Contato</h1><br>
+        <p>Oferecemos serviços completos de Buffet para qalquer evento, grande ou pequeno. Entendemos sua necessidade e iremos atender
+            a comida para satisfazer os maiores critérios de todos, tanto de aparencia quanto em sabor. Não hesite em nos contatar.</p>
+
+        <p class="w3-text-blue-grey w3-large"><b>Endereço:Av. Wilson sábio de Mello, 1242 - São Jaquim, franca -Sp</b></p> 
+        
+        <p>Você também pode nos contatar pelo telefone <b>0000000-00000</b> ou e-mail <b>buffet@francano.com.br</b>, ou pode nos enviar
+            uma mensagem aqui:</p>
+        
+        <form action="" target="_blank">
+            <p>
+                <input class="w3-input w3-pandding-16" type="text" placeholder="Seu nome" required name="Nome">
+            </p>
+
+            <p>
+                <input class="w3-input w3-padding-16" type="number" placeholder="Quantidade de pessoas" required name="Pessoas">
+            </p>
+
+            <p>
+                <input class="w3-input w3-padding-16" type="datetime-local" placeholder="Dia e hora" required name="date"
+                value="2020-11-16T20:00">
+            </p>
+
+            <p>
+                <input class="w3-input w3-padding-16" type="text" placeholder="Mensagem\Pedidos especiais"
+                required name="Mensagem"> 
+            </p>
+
+            <p>
+                <button class="w3-button w3-light-grey w3-section" type="submit">ENVIAR</button>
+            </p>
+        </form>    
+    </div>
+   
+    <!--Fim da pagina-->
+    
+    <!--Rodpé-->
+    <footer class="w3-center w3-light-grey w3-padding-32">
+        <p>Feito por <b>Samuel R. Filho</b></p>
+    </footer>
+    
+</body>
+
+</html>
+
+
